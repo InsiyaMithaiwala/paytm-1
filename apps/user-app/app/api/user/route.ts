@@ -10,7 +10,7 @@ export const GET = async () => {
         })
     }
     return NextResponse.json({
-        msg: "You are not logged in"
+        message: "You are not logged in"
     }, {
         status: 403
     })
