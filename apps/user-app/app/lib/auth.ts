@@ -17,7 +17,7 @@ export const authOptions = {
             const existingUser = await db.user.findFirst({
                 where: {
                     number: credentials.phone
-                } 
+                }
             });
 
             if (existingUser) {
